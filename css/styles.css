@@ -7,9 +7,8 @@ html, body, header, footer, hgroup, nav, main, article, section, figure, figcapt
 }
 
 .wrapper{
-  background-color: red;
   width: 1000px;
-  height: 1400px;
+  height: 1350px;
   margin: auto;
   font-family: 'Quattrocento Sans', sans-serif;
   border: 1px groove black;
@@ -19,7 +18,7 @@ header{
   letter-spacing: .4em;
 }
 header h1{
-  background-color: blue;
+  background-color: #F5F5F5;
   width: 48%;
   height: 125px;
   float: left;
@@ -31,7 +30,8 @@ header h1{
 }
 
 .logo{
-  background-color: purple;
+  background-color: #F5F5F5;
+  ;
   width: 50%;
   height: 260px;
   float: right;
@@ -39,7 +39,7 @@ header h1{
 header h2{
   width: 48%;
   height: 60px;
-  background-color: lightblue;
+  background-color: #F5F5F5;
   float: left;
   font-size: 20px;
   padding-left: 2%;
@@ -55,7 +55,7 @@ hr{
 }
 
 nav{
-  background-color: #F5F5F5;
+  background-color: #DCDCDC;
   width: 98%;
   height: 40px;
   float: left;
@@ -67,7 +67,7 @@ nav{
 }
 
 .content{
-  background-color: green;
+  background-color: white;
   width: 100%;
   height: 980px;
   letter-spacing: .1em;
@@ -75,7 +75,7 @@ nav{
 }
 
 .sidebar{
-  background-color: orange;
+  background-color: #F5F5F5;
   width: 300px;
   height: 100%;
   float: left;
@@ -89,7 +89,7 @@ nav{
   color: goldenrod;
 }
 .main{
-  background-color: orchid;
+  background-color: white;
   margin-left: 301px;
   height: 100%;
   padding:0 1em 0 1em;
@@ -113,22 +113,19 @@ li{
 }
 
 footer{
-  background-color: blueviolet;
+  background-color: #DCDCDC;
   width: 100%;
-  height: 100px;
+  height: 35px;
   float: left;
+  text-align: center;
+  padding-top: 15px;
 }
-.social{
-  background-color: teal;
-  width: 50%;
-  height: 100%;
-  float: right;
-}     
+
 #formDiv{
   width:660px;
   padding:20px;
   font-family: 'Quattrocento Sans', sans-serif;
-}      
+}     
 .inputField {
   margin-bottom: 20px;
   width: 400px;
