@@ -32,9 +32,10 @@ header h1{
 .logo{
   background-color: #e2e2e6;
   border:none;
-  width: 58%;
+  width: 43%;
   height: 260px;
   float: right;
+  padding-left: 15%;
 }
 .line-separator{
   background-color: #e2e2e6;
