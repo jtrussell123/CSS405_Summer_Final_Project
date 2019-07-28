@@ -16,11 +16,12 @@ html, body, header, footer, hgroup, nav, main, article, section, figure, figcapt
 }
 header{
   letter-spacing: .4em;
+  background-color: #e2e2e6;
 }
 header h1{
   background-color: #e2e2e6;
-  width: 48%;
-  height: 125px;
+  width: 40%;
+  height: 120px;
   float: left;
   font-size: 54px;
   font-weight: lighter;
@@ -28,31 +29,29 @@ header h1{
   padding-left: 2%;
   text-transform: uppercase;
 }
-
 .logo{
   background-color: #e2e2e6;
-  ;
-  width: 50%;
+  border:none;
+  width: 58%;
   height: 260px;
   float: right;
 }
-header h2{
-  width: 48%;
-  height: 60px;
+.line-separator{
   background-color: #e2e2e6;
+  float: left;
+  height: 1.5px; 
+  width: 42%; 
+  border-bottom: 1.5px solid black;
+}
+header h2{
+  background-color: #e2e2e6;
+  width: 40%;
+  height: 62px;
   float: left;
   font-size: 20px;
   padding-left: 2%;
 }
-hr{
-  height: 1px;
-  border: 0;
-  border-top: 1.5px solid black;
-  align-items: left;
-  width: 75%;
-  padding: 0;
-  float: left;
-}
+
 
 nav{
   background-color: #cbcbcf;
@@ -124,7 +123,6 @@ footer{
 #formDiv{
   width:660px;
   padding:20px;
-  font-family: 'Quattrocento Sans', sans-serif;
 }     
 .inputField {
   margin-bottom: 20px;
@@ -145,4 +143,3 @@ textarea{
   width: 150px;
   border-radius:0px;
 }
-
