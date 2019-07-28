@@ -10,7 +10,7 @@ html, body, header, footer, hgroup, nav, main, article, section, figure, figcapt
   width: 1000px;
   height: 1350px;
   margin: auto;
-  font-family: 'Quattrocento Sans', sans-serif;
+  font-family: 'Quattrocento Sans', sans-serif, Arial;
   border: 1px groove black;
   border-radius: 5px;
 }
